@@ -44,14 +44,57 @@ header nav ul li:first-child {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #161616;
     text-decoration: none;
     font-size: 16px;
 }
 
 header nav ul li a:hover {
-    color: #f4a261;
+    color: #b68282;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c8b5b5;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #c19d86;
+    border-radius: 5px;
+}
+
 
 /* Home Section */
 .home {
